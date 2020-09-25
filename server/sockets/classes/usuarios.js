@@ -1,8 +1,6 @@
 //
 
 
-
-
 //
 class Usuarios {
 
@@ -19,7 +17,6 @@ class Usuarios {
         this.personas.push(persona);
         return this.personas;
     }
-
 
     getPersona(id) {
         let persona = this.personas.filter(persona => persona.id === id)[0];
